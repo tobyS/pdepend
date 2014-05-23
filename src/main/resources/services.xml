@@ -49,6 +49,10 @@
             <tag name="pdepend.logger" option="--overview-pyramid" message="Generates a chart with an Overview Pyramid for the analyzed project." />
         </service>
 
+        <service id="pdepend.report.dependencies.xml" class="PDepend\Report\Overview\Dependencies">
+            <tag name="pdepend.logger" option="--dependencies-xml" message="Generates a xml log with all metrics." />
+        </service>
+
         <service id="pdepend.report_generator_factory" class="PDepend\Report\ReportGeneratorFactory">
             <argument type="service" id="service_container" />
         </service>
