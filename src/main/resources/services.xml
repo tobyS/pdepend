@@ -50,7 +50,7 @@
         </service>
 
         <service id="pdepend.report.dependencies.xml" class="PDepend\Report\Summary\Dependencies">
-            <tag name="pdepend.logger" option="--dependencies-xml" message="Generates a xml log with all metrics." />
+            <tag name="pdepend.logger" option="--dependencies-xml" message="Generates an XML file with the dependencies used by the CodeRank algorithm." />
         </service>
 
         <service id="pdepend.report_generator_factory" class="PDepend\Report\ReportGeneratorFactory">
