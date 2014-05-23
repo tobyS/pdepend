@@ -40,7 +40,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php BSD License
  */
 
-namespace PDepend\Report\Overview;
+namespace PDepend\Report\Summary;
 
 use PDepend\Report\CodeAwareGenerator;
 use PDepend\Report\FileAwareGenerator;
