@@ -181,6 +181,14 @@ class CodeRankAnalyzer extends AbstractAnalyzer implements AnalyzerNodeAware
     }
 
     /**
+     * @return array
+     */
+    public function getNodes()
+    {
+        return $this->nodes;
+    }
+
+    /**
      * Generates the forward and reverse code rank for the given <b>$nodes</b>.
      *
      * @return void
