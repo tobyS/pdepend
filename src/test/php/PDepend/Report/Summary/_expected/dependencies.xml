@@ -1,0 +1,46 @@
+<artifacts>
+  <artifact name="Report\Summary\Dependencies" type="namespace" namespace="">
+    <in>
+      <artifact name="unresolved_00000000706d55ab000000002278b805" type="unknown" namespace=""/>
+    </in>
+    <out/>
+  </artifact>
+  <artifact name="DependenciesReportTestClass" type="class" namespace="Report\Summary\Dependencies">
+    <in>
+      <artifact name="DependenciesReportTestBaseClass" type="class" namespace="Report\Summary\Dependencies"/>
+    </in>
+    <out/>
+  </artifact>
+  <artifact name="DependenciesReportTestBaseClass" type="class" namespace="Report\Summary\Dependencies">
+    <in/>
+    <out>
+      <artifact name="DependenciesReportTestClass" type="class" namespace="Report\Summary\Dependencies"/>
+    </out>
+  </artifact>
+  <artifact name="DependencyTestClass" type="class" namespace="Report\Summary\Dependencies">
+    <in/>
+    <out/>
+  </artifact>
+  <artifact name="DependencyArgumentTestClass" type="class" namespace="Report\Summary\Dependencies">
+    <in/>
+    <out/>
+  </artifact>
+  <artifact name="DependencyTestException" type="class" namespace="Report\Summary\Dependencies">
+    <in>
+      <artifact name="unresolved_bebd89a2c31fbe2c35ff5981b36e0d97" type="unknown" namespace=""/>
+    </in>
+    <out/>
+  </artifact>
+  <artifact name="unresolved_bebd89a2c31fbe2c35ff5981b36e0d97" type="unknown" namespace="">
+    <in/>
+    <out>
+      <artifact name="DependencyTestException" type="class" namespace="Report\Summary\Dependencies"/>
+    </out>
+  </artifact>
+  <artifact name="unresolved_00000000706d55ab000000002278b805" type="unknown" namespace="">
+    <in/>
+    <out>
+      <artifact name="Report\Summary\Dependencies" type="namespace" namespace=""/>
+    </out>
+  </artifact>
+</artifacts>
